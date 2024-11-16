@@ -12,8 +12,16 @@ public class Main {
         }
 
         Btree<Integer> bt = new Btree<>(null, grau);
+        
         while(true) {
-            System.out.println("1 para inserir, 2 para remover, 3 para encontrar a maior chave, 4 para encontrar  a  menor  chave, 5 para calcular altura , 6 encontrar um valor, 7 exibir por níve, 8 exibir por oredem");
+            System.out.println("Menu de opções");
+            System.out.println("");
+            System.out.println("1 para inserir");
+            System.out.println("2 para encontrar a maior chave,");
+            System.out.println("3 para encontrar a menor chave,");
+            System.out.println("4 para calcular altura");
+            System.out.println("5 exibir por oredem");
+
             int des = sc.nextInt();
             switch (des) {
                 case 1:
@@ -25,31 +33,19 @@ public class Main {
                     break;
 
                 case 2:
-
-                    break;
-
-                case 3:
                     bt.biggestKey();
                     break;
 
 
-                case 4:
+                case 3:
                     bt.smallestKey();
                     break;
 
-                case 5:
+                case 4:
                     bt.height();
                     break;
 
-                case 6:
-
-                    break;
-
-                case 7:
-
-                    break;
-
-                case 8:
+                case 5:
                     bt.emOrdem();
                     break;
 
