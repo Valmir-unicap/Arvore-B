@@ -7,6 +7,7 @@ public class Main {
 
         System.out.println("Digite o grau:");
         int grau = sc.nextInt();
+        
         while(!isPofTwo(grau)) {
             grau = sc.nextInt();
         }
@@ -48,7 +49,6 @@ public class Main {
                 case 5:
                     bt.emOrdem();
                     break;
-
 
                 default:
                     System.out.println("Não encontrada!");
