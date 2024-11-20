@@ -1,3 +1,4 @@
+
 #include <iostream>
 
 using namespace std;
@@ -328,9 +329,12 @@ int main() {
     while (true) {
         cout<<"CRUD - Árovre B\n";
         cout<<"\n";
-        cout<<"1. Inserir\t2. Deletar\n";
-        cout<<"3. Pesquisar\t4. Exibir\n";
-        cout<<"5. Sair do programa\n Escolha uma opção: ";
+        cout<<"1. Inserir\n";
+        cout<<"2. Deletar\n";
+        cout<<"3. Pesquisar\n";
+        cout<<"4. Exibir\n";
+        cout<<"5. Sair do programa\n";
+        cout<<"Escolha uma opção: ";
         cin >> opt;
         cout << endl;
         switch (opt) {
